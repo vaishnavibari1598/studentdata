@@ -1,0 +1,22 @@
+'''stuent name,address,marks,contact no'''
+
+a = ['name' , 'address', 'marks', 'phone_no']
+name = input("enter user name: ")
+address = input("enter user address: ")
+phone_no =input("enter phone_no: ")
+marks = int(input("enter marks: "))
+if marks>=90:
+    grade ="Ex"
+elif marks>=80:
+    grade ="A"
+elif marks>=70:
+    grade ="B"   
+elif marks>=60:
+    grade ="C" 
+elif marks>=50:
+    grade ="D"
+else:
+    grade ="fail"
+print("your grade is " + grade)                
+student = {'name': name,'address': address,'phone_no': phone_no,'your grade is': grade}
+print(student)
