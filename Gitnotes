@@ -14,28 +14,19 @@
 	• Cmd---->git show paste id: index.html(file name)this cmd is used to specific file read or show cmd is used
 	• Cmd ---> git checkout paste id --index.html this command is used to we have need which file give command file is seen of file section
 	• Cmd--->git restore . (This command is  used to when I add something of code but this code not useable I need my code is as it is previously)
-
-	
-	
-	   
-	
-        
-
-
-
-Remote repo-->(git hub)=
- A remote repository refers to a version of your project that resides on a network server or a hosted repository on the internet
-
-	• We create a repository
+      
+        Remote repo-->(git hub)=
+           A remote repository refers to a version of your project that resides on a network server or a hosted repository on the internet
+        • We create a repository
 	• Local changes are create to remote repo below cmd following
 	…or push an existing repository from the command line
 	• git remote add origin https://github.com/vaishnavibari1598/myproject.git
-    git branch -M main
-    git push -u origin main
+          git branch -M main
+          git push -u origin main
 	
 	l   Local  to Remote change(git push)--->
 	       we can changes the locally and see the remote use this command
-	       Cmd--> Git status
+	 Cmd--> Git status
          Cmd-->  Git add index.html(file name)
          cmd--> Git commit -m "v5"(msg)
          cmd--> Git push
