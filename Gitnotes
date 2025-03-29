@@ -1,0 +1,63 @@
+	• Open visual studio ----> create new folder
+	• Give terminal command---->git --version
+	• Next cmd  --> git config --global user.name "Vaishnavi Bari"
+	• Cmd----> git config --global user. Email vaishnavibari909@gmail.com
+	• Cmd---> git config --list
+	• Cmd ---> git init (this cmd is used empty git repo)
+	• Create one file ex- index.html then write program and give terminal next cmd --> git status (seen to be untracked file red color)
+	• Next push before we give add command means staging file cmd is --->git add file name  ex--git add index.html
+	• Cmd---> git status (verify your project)
+	• Cmd--->git commit -m "first v1 of index .html"
+	• Cmd --->git branch (which branch we can work saw the branch this cmd)
+	• Cmd ----> git log (use this command we can saw the changes of file )
+	• Cmd --->git diff (used this command present and priveious33 file differnce)
+	• Cmd---->git show paste id: index.html(file name)this cmd is used to specific file read or show cmd is used
+	• Cmd ---> git checkout paste id --index.html this command is used to we have need which file give command file is seen of file section
+	• Cmd--->git restore . (This command is  used to when I add something of code but this code not useable I need my code is as it is previously)
+
+	
+	
+	   
+	
+        
+
+
+
+Remote repo-->(git hub)=
+ A remote repository refers to a version of your project that resides on a network server or a hosted repository on the internet
+
+	• We create a repository
+	• Local changes are create to remote repo below cmd following
+	…or push an existing repository from the command line
+	• git remote add origin https://github.com/vaishnavibari1598/myproject.git
+    git branch -M main
+    git push -u origin main
+	
+	l   Local  to Remote change(git push)--->
+	       we can changes the locally and see the remote use this command
+	       Cmd--> Git status
+         Cmd-->  Git add index.html(file name)
+         cmd--> Git commit -m "v5"(msg)
+         cmd--> Git push
+	
+	l We can see the local and remote are linked or not use this command
+	       cmd--> git remote
+	       Cmd--> git remote -v
+	
+	l Remote to Local change(git pull)
+        add file remotely and see locally 
+	• Click "+" button ---> create new file
+	• Create new file ---> give the name of file
+	• Type code
+	• Commit changes
+	• Then give the name of file
+	• Commit main branch
+	• Commit changes then 
+	• Local terminal give cmd git pull  
+	  
+	
+
+	
+
+	
+	
